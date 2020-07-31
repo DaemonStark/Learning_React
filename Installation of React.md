@@ -1,6 +1,6 @@
 # Using the create-react-app command
 ### Change parameters according to your own files
-- Following tutorialspoint method here
+- Following tutorialspoint method here follow accordingly.
 
 * Step 1 - install create-react-app
 Browse through the desktop and install the Create React App using command prompt as shown below − <br>
