@@ -2,8 +2,14 @@
 ### Change parameters according to your own files
 - Following tutorialspoint method here follow accordingly.
 
+
+Node Js Must be installed first! Get it from its official website!
+
 * Step 1 - install create-react-app
 Browse through the desktop and install the Create React App using command prompt as shown below − <br>
+Enter these commands one by one first!
+* npm init
+* npm install create-react-app
 <br>
 C:\Users\Tutorialspoint>cd C:\Users\Tutorialspoint\Desktop\   <br>
 C:\Users\Tutorialspoint\Desktop>npx create-react-app my-app   <br>
