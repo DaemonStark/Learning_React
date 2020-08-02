@@ -31,12 +31,32 @@ function App2() {
     );
 }
 
+class App3 extends React.Component {
+    state = {
+        message:'Hello My Name is Ashutosh'
+    }
+    updateMessage = () => {
+        console.log('Updating our message');
+    }
+    render() {
+        return(
+            <div>
+                <h1>{this.state.message}</h1>
+                <button onClick={this.updateMessage}>Update</button>
+            </div>
+        )
+    }
+}
+
+
+
 
 
 ReactDOM.render(
        <div> 
            <App />
            <App2 />
+           <App3 />
         </div>,    
         document.getElementById('root')
     )
